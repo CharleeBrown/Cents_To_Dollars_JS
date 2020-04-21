@@ -1,7 +1,7 @@
 function getCents(){
     console.clear();
     var dollars = parseFloat(document.getElementById("dollarAmount").value);
-
+   
     var cents = dollars * 100;
 
     var dimes = Math.round(cents / 10);
