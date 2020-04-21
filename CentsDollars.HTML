@@ -1,7 +1,36 @@
 <html>
-    <body onload="getClear()">
-        <input type="text" id="dollarAmount"/>
-        <input type="submit" onclick="getCents()"
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    </head>
+
+    <title>
+            Dollars to Cents
+    </title>
+   <body onload="getClear()">
+        <div class="container">
+            <div class="row">
+                    <input type="text" id="dollarAmount"/>
+                    <input type="submit" onclick="getCents()"/>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Quarters <input type="text" id="qtr"/></label>
+                </div>
+                <div class="col">
+                    <label> Nickels <input type="text" id="nickel"/></label>
+                </div>
+                <div class="col">
+                    <label> Dimes <input type="text" id="dime"/></label>
+
+                </div>
+                <div class="col">
+                    <label> Pennies<input type="text" id="penny"/></label>
+                </div>
+            
+            </div>
+           
+        </div>
     </body>  
     <script src="DollarToCents.js"></script>
 </html>

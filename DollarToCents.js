@@ -8,7 +8,17 @@ function getCents(){
     var nickles = Math.round(cents / 5);
     var quarters = Math.round(cents / 25);
     var pennies = Math.round(cents);
-  
+    
+    var putDimes = document.getElementById("dime");
+    var putQtr = document.getElementById("qtr");
+    var putNickel = document.getElementById("nickel");
+    var putPenny = document.getElementById("penny");
+    
+
+    putDimes.value = dimes; 
+    putQtr.value = quarters;
+    putNickel.value = nickles; 
+    putPenny.value = pennies; 
     
     console.log(dimes + " dimes");
     console.log(nickles + " nickles");
