@@ -8,23 +8,25 @@
     </title>
    <body onload="getClear()">
         <div class="container">
-            <div class="row">
+            
+            <div class="row" id="dollarEntry">
+                <div class="col-lg" >
                     <input type="text" id="dollarAmount"/>
                     <input type="submit" onclick="getCents()"/>
-
+                </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-sm">
                     <label>Quarters <input type="text" id="qtr"/></label>
                 </div>
-                <div class="col">
+                <div class="col-sm">
                     <label> Nickels <input type="text" id="nickel"/></label>
                 </div>
-                <div class="col">
+                <div class="col-sm">
                     <label> Dimes <input type="text" id="dime"/></label>
 
                 </div>
-                <div class="col">
+                <div class="col-sm">
                     <label> Pennies<input type="text" id="penny"/></label>
                 </div>
             
