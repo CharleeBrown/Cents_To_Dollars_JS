@@ -58,11 +58,14 @@
 function getClear(){
   
     // Clears all the input boxes. 
-    document.getElementById("dollarAmount").value = "";
+    var dollar = document.getElementById("dollarAmount");
     putDimes.value = "";
     putQtr.value = "";
     putNickel.value = "";
     putPenny.value = "";
+    dollar.value = "";
+    dollar.focus();
+    
 }
 
 
